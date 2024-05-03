@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
-const PORT = 3000; // You can use any port number you prefer
+// Load environment variables from .env file
+require('dotenv').config(); 
+const PORT = process.env.PORT
 
 // Sample data for orders
 let orders = [
