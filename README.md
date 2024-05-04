@@ -5,7 +5,7 @@
 ### Introduce myself (5min)
 ### Quick poll (5min)
 - Do I need to add anything to agenda?
-### Typescript review (20min)
+### Typescript practice (20min)
 - Why is typescript useful?
 - Pros vs Cons
 - How to generate react app with typescript `npx create-react-app food-truck-website --template typescript`
@@ -16,10 +16,12 @@
 ### Food truck app (30min)
 - What are we building? [Requirements.md](Requirements.md) ~5min
 - Goal: Practice adding typescript interfaces for the project
+### Quick Break (5min)
 ### Render.com / Deployments
 - Overview of different options (Hobby vs Professional)
 - Deploy the react app to render.com https://docs.render.com/deploy-create-react-app
 - Deploy nodejs to render.com https://docs.render.com/deploy-node-express-app
+### Quick Break (5min)
 ### How to stand out?
 - 2-3 good small projects
 - Practice technical interview questions
