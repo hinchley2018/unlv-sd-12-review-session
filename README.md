@@ -15,7 +15,11 @@
 ### Quick Break (5min)
 ### Food truck app (30min)
 - What are we building? [Requirements.md](Requirements.md) ~5min
+- Individual Practice 
 - Goal: Practice adding typescript interfaces for the project
+- Build a reusable component MenuItem that has a title, description, price, list of allergens (string)
+- interface for MenuItem
+- display it from [food-truck-frontend/src/App.tsx](App.tsx)
 ### Quick Break (5min)
 ### Render.com / Deployments
 - Overview of different options (Hobby vs Professional)
