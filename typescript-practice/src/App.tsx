@@ -1,23 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ProductCard } from './components/product-card';
+import { Product } from './interfaces/product';
 
 function App() {
+  //assume we get a list of products from an api
+  const products:Array<Product> = [
+    {productId: "1", productName: "Dog Food", price: 3.55, quantityOrdered: 3},
+    {productId: "2", productName: "Cat Food", price: 4.89, quantityOrdered: 2}
+  ]
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {products.map(p => <ProductCard product={p}/>
+        )}
       </header>
     </div>
   );
