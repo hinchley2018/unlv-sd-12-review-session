@@ -9,7 +9,8 @@ function App() {
   //get data from an api
   const menuItems: Array<MenuItem> = [
     {title: 'Pizza', description: 'Margirita pizza from our stone oven, made with fresh tomato sauce mozerella cheese and basil', price: 3.99, allergens: ["gluten", "dairy", "tomato sauce"]},
-    {title: 'Peporoni Calzone', description: 'Garlic crusted calzone from our stone oven, made with fresh tomato sauce mozerella cheese and basil', price: 6.99, allergens: ["gluten", "dairy", "tomato sauce", "garlic"]}
+    {title: 'Peporoni Calzone', description: 'Garlic crusted calzone from our stone oven, made with fresh tomato sauce mozerella cheese and basil', price: 6.99, allergens: ["gluten", "dairy", "tomato sauce", "garlic"]},
+    {title: 'Breadsticks', description: 'Garlic breadsticks, made fresh everyday', price: 3.99, allergens: ["gluten","garlic"]}
   ]
   return (
     <div className="App">
