@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>Here is our menu</h2>
         {menuItems.map(mi => 
           <MenuItemComponent 
             onClick={() => {console.log()}} 
