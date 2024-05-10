@@ -14,6 +14,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav>
+          <h1><a href="/">Home</a></h1>
+          <h1><a href='/about'>About Us</a></h1>
+        </nav>
         <h2>Here is our menu</h2>
         {menuItems.map(mi => 
           <MenuItemComponent 
