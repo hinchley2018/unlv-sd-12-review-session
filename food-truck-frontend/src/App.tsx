@@ -23,6 +23,7 @@ function App() {
         )}
         
       </header>
+      <footer>Our phone number is 123-456-7890</footer>
     </div>
   );
 }
